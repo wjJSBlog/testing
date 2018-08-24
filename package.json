@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test/mocha.js",
-    "cover": "nyc _mocha"
+    "cover": "nyc mocha"
   },
   "keywords": [],
   "author": "my-test",
