@@ -6,11 +6,8 @@
 ## 测试用到的知识点
 
     asset 断言
-
-    chia     http://www.chaijs.com/            断言库
-
+    chia     http://www.chaijs.com/            TDD\BDD 更加语义化的断言库
     mocha    https://mochajs.org/              测试框架
-
     istanbul https://github.com/istanbuljs/nyc 判断测试用例的覆盖率
 
 ## 持续集成并执行测试工具
