@@ -7,4 +7,4 @@ brancher:
     - "dev"
     - "master"
 script: 
-  - "npm run conver"
+  - "npm run cover"
