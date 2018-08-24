@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test/mocha.js",
-    "cover": "nyc mocha"
+    "cover": "nyc --reporter=text-lcov --temp-directory=codecov mocha"
   },
   "keywords": [],
   "author": "my-test",
