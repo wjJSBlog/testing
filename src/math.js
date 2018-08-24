@@ -1,9 +1,13 @@
 module.exports = {
-    add: function (a, b) {
-        return a + b;
+    add (...args) {
+        return args.reduce(function(prev, next){
+            return prev + next;
+        });
     },
 
-    mul: function (a, b) {
-        return a - b;
+    mul (...args) {
+        return args.reduce(function(prev, next){
+            return prev - next;
+        });
     },
 }
