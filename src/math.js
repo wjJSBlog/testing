@@ -1,12 +1,12 @@
 module.exports = {
-    add: function(...args){
-        return args.reduce((prev, next)=>{
+    add(...args) {
+        return args.reduce((prev, next) => {
             return prev + next;
         });
     },
 
-    mul: function(...args){
-        return args.reduce((prev, next)=>{
+    mul(...args) {
+        return args.reduce((prev, next) => {
             return prev - next;
         });
     }
