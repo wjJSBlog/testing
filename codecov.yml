@@ -1,3 +1,0 @@
-fixes:
-  - ".nyc_output/"  # move path   e.g., "before/path" => "after/path"
-
